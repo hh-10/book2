@@ -31,6 +31,7 @@ public class IntStackTester {
                 case 2:
                     try {
                         x = s.pop();
+                        System.out.println("팝한 데이터는 " + x + "입니다.");
                     } catch (IntStack.EmptyIntStackException e) {
                         System.out.println("스택이 비어 있습니다.");
                     }
